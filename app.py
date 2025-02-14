@@ -25,9 +25,9 @@ st.subheader("✨ A couple of our favorite memories ✨")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("image1.jpg", caption="A special moment", use_column_width=True)  # Replace with your image path
+    st.image("image1.jpg", caption="A special moment")  # Replace with your image path
 with col2:
-    st.image("image2.jpg", caption="Another special memory", use_column_width=True)  # Replace with your image path
+    st.image("image2.jpg", caption="Another special memory")  # Replace with your image path
 
 # Cute Message Section
 st.subheader("💬 A Cute Message for You 💬")
